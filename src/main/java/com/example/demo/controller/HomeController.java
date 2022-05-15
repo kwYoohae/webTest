@@ -16,4 +16,9 @@ public class HomeController {
         }
         return "index.html";
     }
+
+    @GetMapping("/")
+    public String index(){
+        return "home.html";
+    }
 }
